@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/repeat-mobile2/static/css/main.f3107633.chunk.css",
+    "main.js": "/repeat-mobile2/static/js/main.e3f413a2.chunk.js",
+    "main.js.map": "/repeat-mobile2/static/js/main.e3f413a2.chunk.js.map",
+    "runtime~main.js": "/repeat-mobile2/static/js/runtime~main.b84ab088.js",
+    "runtime~main.js.map": "/repeat-mobile2/static/js/runtime~main.b84ab088.js.map",
+    "static/js/2.d1a0da11.chunk.js": "/repeat-mobile2/static/js/2.d1a0da11.chunk.js",
+    "static/js/2.d1a0da11.chunk.js.map": "/repeat-mobile2/static/js/2.d1a0da11.chunk.js.map",
+    "index.html": "/repeat-mobile2/index.html",
+    "precache-manifest.29da2217efe5bca34cf4b4b3db2a8320.js": "/repeat-mobile2/precache-manifest.29da2217efe5bca34cf4b4b3db2a8320.js",
+    "service-worker.js": "/repeat-mobile2/service-worker.js",
+    "static/css/main.f3107633.chunk.css.map": "/repeat-mobile2/static/css/main.f3107633.chunk.css.map",
+    "static/media/logo.svg": "/repeat-mobile2/static/media/logo.5d5d9eef.svg"
+  }
+}
