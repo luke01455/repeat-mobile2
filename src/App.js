@@ -10,13 +10,26 @@ function App() {
       </div>
       <div className="App-header">
         {/* <img src={logo} className="App-logo" alt="logo" /> */}
-        
+
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
       <div className="Bottom-section">
-        
+        <div className="buttons-container">
+          <div className="lower-nav">
+            <p>Settings</p>
+            <p>Settings</p>
+          </div>
+          <div className="lower-nav">
+            <p>Recordings</p>
+            <p>Recordings</p>
+          </div>
+          <div className="lower-nav">
+            <p>Premium</p>
+            <p>Premium</p>
+          </div>
+        </div>
       </div>
     </div>
   );
