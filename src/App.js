@@ -1,16 +1,22 @@
 import React from 'react';
 import './App.css';
+import menubtn from './images/menubtn.png';
 
 function App() {
   return (
     <div className="App">
+      
       <div className="Top-Section">
+        <div class="Menubtn-Container">
+        <img src={menubtn} className="Menu-Button" alt="logo" />
+        </div>
+        <div className="Top-Section-Button">
         <button className="Signup-button">Sign Up</button>
+        </div>
       </div>
       <div className="App-header">
-        {/* <img src={logo} className="App-logo" alt="logo" /> */}
 
-        <p>
+         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
       </div>
