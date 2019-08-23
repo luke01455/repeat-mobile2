@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       
       <div className="Top-Section">
-        <div class="Menubtn-Container">
+        <div className="Menubtn-Container">
         <img src={menubtn} className="Menu-Button" alt="logo" />
         </div>
         <div className="Top-Section-Button">

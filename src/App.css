@@ -13,7 +13,6 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 25%;
-
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -26,6 +25,14 @@
   height: 50%;
 }
 
+.Menubtn-Container {
+  display: flex;
+  flex-direction: row;
+}
+
+.Menu-Button {
+  padding: 2%;
+}
 
 
 .Signup-button {
