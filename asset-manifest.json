@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/repeat-mobile2/static/css/main.c2067c16.chunk.css",
+    "main.css": "/repeat-mobile2/static/css/main.1ac0e831.chunk.css",
     "main.js": "/repeat-mobile2/static/js/main.6d554ec2.chunk.js",
     "main.js.map": "/repeat-mobile2/static/js/main.6d554ec2.chunk.js.map",
     "runtime~main.js": "/repeat-mobile2/static/js/runtime~main.b84ab088.js",
@@ -8,9 +8,9 @@
     "static/js/2.0b94b832.chunk.js": "/repeat-mobile2/static/js/2.0b94b832.chunk.js",
     "static/js/2.0b94b832.chunk.js.map": "/repeat-mobile2/static/js/2.0b94b832.chunk.js.map",
     "index.html": "/repeat-mobile2/index.html",
-    "precache-manifest.0ded8b4c722182e7cc271f957b3ea5f7.js": "/repeat-mobile2/precache-manifest.0ded8b4c722182e7cc271f957b3ea5f7.js",
+    "precache-manifest.9ff134f79ebb44f6b2a9c1a38565a444.js": "/repeat-mobile2/precache-manifest.9ff134f79ebb44f6b2a9c1a38565a444.js",
     "service-worker.js": "/repeat-mobile2/service-worker.js",
-    "static/css/main.c2067c16.chunk.css.map": "/repeat-mobile2/static/css/main.c2067c16.chunk.css.map",
+    "static/css/main.1ac0e831.chunk.css.map": "/repeat-mobile2/static/css/main.1ac0e831.chunk.css.map",
     "static/media/App.css": "/repeat-mobile2/static/media/background3.bb6a09bf.png"
   }
 }
