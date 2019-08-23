@@ -8,11 +8,19 @@ function App() {
       
       <div className="Top-Section">
         <div className="Menubtn-Container">
+        <div className="Margin-div">
         <img src={menubtn} className="Menu-Button" alt="logo" />
         </div>
-        <div className="Top-Section-Button">
-        <button className="Signup-button">Sign Up</button>
         </div>
+        <div className="Top-Section-Button">
+        <button className="Signup-button">Sign Up</button> 
+        <div className="Loginbtn-Section">
+        <div className="Para-Holders"><p>Have an account?</p></div>
+        <p></p>
+        <div className="Para-Holders"><a><p id="login-btn">Log In</p></a></div>
+        </div>   
+        </div>
+       
       </div>
       <div className="App-header">
 

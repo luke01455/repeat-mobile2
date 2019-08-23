@@ -6,48 +6,66 @@
   height: 100vh;
 }
 
-/* * {border:1px solid red} */
+ /* * {border:1px solid red}  */
 
 .Top-Section{
   background-image: url("./images/background1.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 25%;
+  height: 30%;
   font-size: calc(10px + 2vmin);
   color: white;
+  width: 100%;
 }
 
-.Top-Section-Button {
+ .Top-Section-Button {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 50%;
+  height: 90%;
+} 
+
+ .Menubtn-Container {
+  display: grid;
+  grid-template-columns: 45px 1fr;
 }
 
-.Menubtn-Container {
-  display: flex;
-  flex-direction: row;
-}
-
-.Menu-Button {
-  padding: 2%;
-}
-
-
-.Signup-button {
-  border:1px solid white;
+  .Signup-button {
+  border:2.7px solid white;
   border-radius:7%;
   font-size:0.875;
-  width: 28%;
-  height: 5vh;
-  background-color: rgba(255,255,255, 0.2);
+  width: 39%;
+  height: 7vh; 
+  background-color: rgba(255,255,255, 0.3);
   color: white;
-  font-size: 1em;
-  border-radius: 7px;
-  max-width: 150px;
+  font-size: 1.4em;
+  border-radius: 7px; 
+  max-width: 300px;
+  min-height: 60px;
+} 
+.Loginbtn-Section {
+  height: 20%;
+  display: grid;
+  grid-template-columns: 1fr 13px 1fr;
 }
 
+ .Loginbtn-Section p {
+  width: 19vw;
+  font-size: 0.6em;
+  text-align: center;
+}
+
+.Para-Holders {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Loginbtn-Section #login-btn {
+  width: 19vw;
+  font-size: 1em;
+  text-align: center;
+}  
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 5vmin;
@@ -78,7 +96,7 @@
   background-image: url("./images/background3.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 35%;
+  height: 30%;
   display: flex;
   flex-direction: column;
   align-items: center;
