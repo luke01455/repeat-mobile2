@@ -28,7 +28,9 @@
 
  .Menubtn-Container {
   display: grid;
+  padding-top: 0.5%;
   grid-template-columns: 45px 1fr;
+  align-items: center;
 }
 
   .Signup-button {
@@ -44,27 +46,26 @@
   max-width: 300px;
   min-height: 60px;
 } 
-.Loginbtn-Section {
-  height: 20%;
-  display: grid;
-  grid-template-columns: 1fr 13px 1fr;
-}
 
- .Loginbtn-Section p {
-  width: 19vw;
-  font-size: 0.6em;
-  text-align: center;
-}
+
+
 
 .Para-Holders {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: row;
+  width: 100vw;
+  white-space: nowrap;
+  overflow: hidden;
 }
-.Loginbtn-Section #login-btn {
-  width: 19vw;
-  font-size: 1em;
-  text-align: center;
+.Para-Holders #login-plain-text {
+  font-size: 0.5em;
+}
+
+.Para-Holders #login-plain-text a {
+  padding-left: 5%;
+  font-size: 1.2em;
 }  
 .App-logo {
   animation: App-logo-spin infinite 20s linear;

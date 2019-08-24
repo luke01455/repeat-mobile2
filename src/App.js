@@ -14,11 +14,8 @@ function App() {
         </div>
         <div className="Top-Section-Button">
         <button className="Signup-button">Sign Up</button> 
-        <div className="Loginbtn-Section">
-        <div className="Para-Holders"><p>Have an account?</p></div>
-        <p></p>
-        <div className="Para-Holders"><a><p id="login-btn">Log In</p></a></div>
-        </div>   
+        <div className="Para-Holders"><p id="login-plain-text"> Have an account?<a>Log In </a> </p> </div>
+          
         </div>
        
       </div>
