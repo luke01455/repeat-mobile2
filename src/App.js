@@ -31,7 +31,7 @@ function App() {
         <p id="MidText-2"> 10 Minutes </p>
         </div>
         <div className="Rangebar-Container"> 
-          <input type="range" class="range" name="" defaultValue="10"
+          <input type="range" className="range" name="" defaultValue="10"
           min="0" max="20"></input>
         </div>
         <div className="cd-container">
@@ -43,19 +43,19 @@ function App() {
       </div>
       <div className="Bottom-section">
         <div className="buttons-container">
-          <div className="lower-nav">
+          <div className="lower-nav" id="ln1">
           <div className="lowerimg-div">
             <img src={settingsbtn} className="Menu-Button" alt="menu-button" />
           </div>
             <p>Settings</p>
           </div>
-          <div className="lower-nav">
+          <div className="lower-nav" id="ln2">
           <div className="lowerimg-div">
             <img src={filebtn} className="Menu-Button" alt="menu-button" />
           </div>
             <p id="Recordingsbtn">Recordings</p>
           </div>
-          <div className="lower-nav">
+          <div className="lower-nav" id="ln3">
           <div className="lowerimg-div">
             <img src={premiumbtn} className="Menu-Button" alt="menu-button" />
           </div>
