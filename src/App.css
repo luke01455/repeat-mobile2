@@ -68,8 +68,8 @@
   font-size: 1.2em;
 }  
 .App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 5vmin;
+  animation: App-logo-spin infinite 9s linear;
+  height: 15vh;
   pointer-events: none;
 }
 
@@ -88,6 +88,29 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+#MidText-1 {
+  font-size: 0.6em;
+}
+#MidText-2 {
+  font-size: 0.8em;
+}
+
+
+#Savebtn {
+  margin-top: 2%;
+  border:2px solid white;
+  border-radius:7%;
+  font-size:0.875;
+  width: 28%;
+  height: 5.2vh; 
+  background-color: rgba(255,255,255, 0.3);
+  color: white;
+  font-size: 1em;
+  border-radius: 7px; 
+  max-width: 300px;
+  min-height: 30px;
 }
 
 .App-link {
