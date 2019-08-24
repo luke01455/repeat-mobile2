@@ -2,6 +2,10 @@ import React from 'react';
 import './App.css';
 import menubtn from './images/menubtn.png';
 import cddvd from './images/cddvd.png';
+import filebtn from './images/filebtn.png';
+import premiumbtn from './images/premiumbtn.png';
+import settingsbtn from './images/settingbtn.png';
+
 
 function App() {
   return (
@@ -40,15 +44,21 @@ function App() {
       <div className="Bottom-section">
         <div className="buttons-container">
           <div className="lower-nav">
-            <p>Settings</p>
+          <div className="lowerimg-div">
+            <img src={settingsbtn} className="Menu-Button" alt="menu-button" />
+          </div>
             <p>Settings</p>
           </div>
           <div className="lower-nav">
-            <p>Recordings</p>
-            <p>Recordings</p>
+          <div className="lowerimg-div">
+            <img src={filebtn} className="Menu-Button" alt="menu-button" />
+          </div>
+            <p id="Recordingsbtn">Recordings</p>
           </div>
           <div className="lower-nav">
-            <p>Premium</p>
+          <div className="lowerimg-div">
+            <img src={premiumbtn} className="Menu-Button" alt="menu-button" />
+          </div>
             <p>Premium</p>
           </div>
         </div>
