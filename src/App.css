@@ -91,10 +91,31 @@
 }
 
 #MidText-1 {
+  margin-top: -60px;
   font-size: 0.6em;
 }
 #MidText-2 {
+  margin-top: 1%;
   font-size: 0.8em;
+}
+
+.range {
+  margin-bottom: 8%;
+  width: 50vw;
+  height: 2px;
+  background: white;
+  -webkit-appearance: none;
+  outline: none;
+  border-radius: 2px;
+}
+
+.range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #9C5891;
+  border:0.1px solid #A8539A;
 }
 
 

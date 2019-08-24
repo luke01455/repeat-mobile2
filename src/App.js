@@ -24,9 +24,9 @@ function App() {
       <div className="App-header">
         <p id="MidText-1"> Save the last... </p>
         <p id="MidText-2"> 10 Minutes </p>
-        <div>
-          <span id="Range-Value">0</span>
-          <input type="range" name=""></input>
+        <div> 
+          <input type="range" class="range" name="" defaultValue="10"
+          min="0" max="20"></input>
         </div>
         <img src={cddvd} className="App-logo" alt="logo" />
         <button className="Signup-button" id="Savebtn">Save</button>
