@@ -24,16 +24,30 @@
   align-items: center;
   justify-content: center;
   height: 85%;
+  transition: 0.1s;
 } 
 
  .Menubtn-Container {
   display: grid;
-  padding-top: 0.5%;
+  padding-top: 2%;
   grid-template-columns: 45px 1fr;
   align-items: center;
 }
 
+.Menu-Button {
+  min-height: 20px;
+  height: 2.5vh;
+  transition: 0.1s;
+}
+
+.Menu-Button:hover {
+  transform: scale(1.1);
+}
+
+
+
   .Signup-button {
+  z-index: 0;
   border:2.7px solid white;
   border-radius:7%;
   font-size:0.875;
@@ -45,10 +59,14 @@
   border-radius: 7px; 
   max-width: 300px;
   min-height: 60px;
+  transition: 0.1s;
 } 
 
-
-
+.Signup-button:hover {
+  width: 37%; 
+  background-color: rgba(255,255,255, 0.6);
+  transform: scale(1.03);
+} 
 
 .Para-Holders {
   display: flex;
@@ -58,6 +76,7 @@
   width: 100vw;
   white-space: nowrap;
   overflow: hidden;
+  padding-bottom: 5%;
 }
 .Para-Holders #login-plain-text {
   font-size: 0.5em;
@@ -149,6 +168,14 @@
   max-width: 300px;
   min-width: 130px;
   min-height: 39px;
+  transition: 0.1s;
+}
+#Savebtn:hover{
+  background-color: rgba(255,255,255, 0.6);
+  min-width: 136px;
+  font-size: 1.02em;
+  border:2.1px solid white;
+  transform: scale(1.04);
 }
 
 .App-link {
@@ -168,13 +195,14 @@
 } 
 
 .buttons-container {
+  
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   height: 100%;
   min-height: 100%;
-  
+  transition: 0.2s;
 }
 
 .lower-nav {
@@ -184,13 +212,30 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  transition: 0.2s;
+}
+
+.lowerimg-div {
+  transition: 0.2s;
+}
+.lower-nav:hover > p{
+  transform: scale(1.1);
+}
+
+.lower-nav:hover > .lowerimg-div{
+  transform: scale(1.1);
+}
+
+.lower-nav:hover > .buttons-container {
+  transform: scale(.5);
 }
 
 .lower-nav p {
   font-size: 2vh;
   font-weight: bold;
+  transition: 0.2s;
 }
-.Menu-Button { 
+.Lower-Button { 
   height: 4vh;
   min-height: 30px;
 }
