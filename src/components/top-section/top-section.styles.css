@@ -31,6 +31,7 @@
   }
   
   .Menu-Button:hover {
+    cursor: pointer;
     transform: scale(1.1);
   }
   
@@ -52,6 +53,7 @@
   } 
   
   .Signup-button:hover {
+    cursor: pointer;
     width: 37%; 
     background-color: rgba(255,255,255, 0.6);
     transform: scale(1.03);
@@ -72,6 +74,15 @@
   }
   
   .Para-Holders #login-plain-text a {
+    color: white;
+    text-decoration: none;
     padding-left: 5%;
     font-size: 1.2em;
-  }  
+    transition: 0.2s;
+  } 
+
+  .Para-Holders #login-plain-text a:hover {
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-weight: bold;
+  }

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import menubtn from '../../images/menubtn.png';
 import './top-section.styles.css';
 
@@ -13,7 +14,7 @@ const TopSection = () => (
   <button className="Signup-button">Sign Up</button>
   <div className="Para-Holders">
     <p id="login-plain-text">
-      Have an account?<a>Log In </a>
+      Have an account?<Link to='/'>Log In </Link>
     </p>
   </div>
 </div>

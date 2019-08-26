@@ -36,14 +36,17 @@
     transition: 0.2s;
   }
   .lower-nav:hover > p{
+    cursor: pointer;
     transform: scale(1.1);
   }
   
   .lower-nav:hover > .lowerimg-div{
+    cursor: pointer;
     transform: scale(1.1);
   }
   
   .lower-nav:hover > .buttons-container {
+    cursor: pointer;
     transform: scale(.5);
   }
   

@@ -76,6 +76,7 @@
     transition: 0.1s;
   }
   #Savebtn:hover{
+    cursor: pointer;
     background-color: rgba(255,255,255, 0.6);
     min-width: 136px;
     font-size: 1.02em;

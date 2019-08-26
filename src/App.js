@@ -1,16 +1,16 @@
 import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
 import './App.css';
-import TopSection from './components/top-section/top-section.component.jsx';
-import MidSection from './components/mid-section/mid-section.component.jsx';
-import BotSection from './components/bot-section/bot-section.component.jsx';
+import HomePage from './pages/homepage.component';
+
 
 function App() {
   return (
     <div className="App">
-      <TopSection />
-      <MidSection />
-      <BotSection />
+      <Switch>
+      <Route exact path='/' component={HomePage} />
+      </Switch>
     </div>
   );
 }
