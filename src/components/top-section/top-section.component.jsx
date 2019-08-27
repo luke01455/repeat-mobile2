@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { auth } from '../../firebase/firebase.utils';
 import menubtn from '../../images/menubtn.png';
+import { withRouter } from 'react-router-dom';
+
 import './top-section.styles.css';
 
-const TopSection = () => (
+const TopSection = ({ currentUser,  history }) => (
     <div className="Top-Section">
 <div className="Menubtn-Container">
   <div className="Margin-div">
@@ -11,14 +14,26 @@ const TopSection = () => (
   </div>
 </div>
 <div className="Top-Section-Button">
-  <button className="Signup-button">Sign Up</button>
+
+  <button className="Signup-button" onClick={() => history.push('/signin')}>Sign Up</button>
+
   <div className="Para-Holders">
-    <p id="login-plain-text">
-      Have an account?<Link to='/'>Log In </Link>
-    </p>
+        {currentUser ?
+          <p id="login-plain-text">
+          Welcome back, <Link to='/' onClick={() => auth.signOut()}> {currentUser.displayName} </Link>
+          </p>
+          :
+          <p id="login-plain-text">
+           Have an account?<Link to='/'>Log In </Link>
+          </p>
+        }
   </div>
+
+
+
+  
 </div>
 </div>
 )
 
-export default TopSection;
+export default withRouter(TopSection);
